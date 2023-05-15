@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".muffin">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/blueberry_muffin"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/Instruction"
+        android:layout_width="408dp"
+        android:layout_height="118dp"
+        android:text="1. Mix the dry ingredients in one bowl.
+2. Mix the wet ingredients in a liquid measuring cup.
+3. Add the wet mixture to the dry mixture, then fold in the blueberries.
+4. Make the topping.
+5. Pour the batter into a prepared muffin tin and sprinkle with the topping.
+6. Bake in the preheated oven until the toothpick comes out clean."
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/Ingrendients"
+        android:layout_width="409dp"
+        android:layout_height="166dp"
+        android:text="1 ½ cups all-purpose flour
+
+¾ cup white sugar
+
+2 teaspoons baking powder
+
+½ teaspoon salt
+
+⅓ cup vegetable oil
+
+1 egg
+
+⅓ cup milk, or more as needed
+
+1 cup fresh blueberries"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="154dp"
+        android:layout_height="155dp"
+        android:text="Prep Time:15 mins
+Servings:
+8"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

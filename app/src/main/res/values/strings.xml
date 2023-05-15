@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CookingApp</string>
+    <string name="selected_item" />
+
+    <string-array name="Diffculty">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
